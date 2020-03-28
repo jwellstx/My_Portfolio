@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(black, white);
+}
+
+hr {
+    border: none;
+    height: 10px;
+    color: black;
+    background-color: black;
+    margin: 4% 10% 2% 10%;
+    box-shadow: 2px 4px grey;
+}
+
+
+.myProfImg {
+    position: absolute;
+    z-index: -1;
+    top: -45vh;
+    left: 5vw;
+    height: 55vh;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: rgb(228, 222, 222);
+}
+
+.woodBannerBox {
+    text-align: right;
+}
+.woodBanner {
+    /* height: 80%; */
+    width: 60%;
+    transform: scaleX(-1);
+    /* opacity: 0.5; */
+}
+
+.myName {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.slogan {
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25vw;
+    white-space: nowrap;
+}
+
+.woodBannerQuoteBox {
+    top: -15vh;
+    position: relative;
+    height: 100%;
+}
+.woodBannerQuote {
+    /* height: 35vh; */
+    width: 65%;
+    transform: scaleX(-1) scaleY(-1);
+    text-align: left;
+    /* opacity: 0.5; */
+}
+
+#quote {
+    position: absolute;
+    top: 30%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    width: 50%;
+    left: 5vw;
+    color: rgb(228, 222, 222);
+}
+
+
+
+.myImg {
+    width: 25vw;
+    height: 100%;
+    border-radius: 5%;
+    margin: 3%;
+}
+
+
+.randomQuote {
+    position: relative;
+    top: -20vh;
+    right: 0;
+}
+
+.aboutMe,
+.portfolio,
+.contactMe {
+    position: absolute;
+    top: 10%;
+    left: 30vw;
+    background-color: rgb(142, 218, 218);
+    color:black;
+    padding: 1vh 11vw 1vh 2vw;
+    transition: left 1s;
+    border-radius: 15%;
+    font-weight: bold;
+}
+
+.aboutMe:hover {
+    left: 26vw;
+}
+
+.portfolio {
+    top: 25%;
+    left: 31vw;
+}
+
+.portfolio:hover {
+    left: 27vw;
+}
+
+.contactMe {
+    top: 40%;
+    left: 32vw;
+}
+
+.contactMe:hover {
+    left: 28vw;
+}
+
+#aboutMeSection {
+    color: rgb(211, 206, 206);
+}
+
+#aboutMeText {
+    font-size: 1.5vw;
+}
+
+.p1,
+.p2 {
+    height: 100%;
+    width: 100%;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.projBox {
+    border: 5px solid black;
+    border-radius: 2%;
+    margin: 2%;
+}
+
+.projDesc {
+    width: 75%;
+    padding: 5%;
+    font-size: 1vw;
+}
+
+.projImg {
+    width: 25%;
+}
+
+#bubble {
+    top: -41vh;
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .aboutMe {
+        left: 25vw;
+    }
+    .aboutMe:hover {
+        left: 23vw;
+    }
+    .portfolio {
+        left: 26vw;
+    } 
+    .portfolio:hover {
+        left: 24vw;
+    }
+    .contactMe {
+        left: 27vw;
+    }
+    .contactMe:hover {
+        left: 25vw;
+    }
+    .myName {
+        white-space: nowrap;
+    }
+}
+
+

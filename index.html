@@ -1,12 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Wells | Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <div class="banner">
+
+        <div class="aboutMe">About Me</div>
+        <div class="portfolio">Portfolio</div>
+        <div class="contactMe">Contact</div>
+        <div class="woodBannerBox">
+            <img class="woodBanner" src="assets/images/woodbanner_cropped-removebg.png">
+        </div>
+        <div class="myName">
+            Justin Wells<br>
+            <div class="slogan">Changing the world, one script at a time!</div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="woodBannerQuoteBox">
+        <img class="woodBannerQuote" src="./assets/images/woodquote_cropped-removebg.png">
+        <div id="quote"></div>
+        <img class="myProfImg" src="./assets/images/professional-removebg-preview.png">
+    </div>
+    <hr>
+    <div class="container">
+        <div id="aboutMeSection">
+            <h1 class="title" style="text-align: center; margin-bottom: 2%;">About Me</h1>
+            <img class="myImg" src="assets/images/me.jpg" style="float: left">
+            <h3 id="aboutMeText">
+                <p>
+                    Hi, my name is Justin Wells! I was born and raised in the great state of Texas, in the Dallas-Fort
+                    Worth area. In 2007, I graduated from
+                    Grapevine High School and began to persue my career interesets in computers and programming. I
+                    Attended the University of Texas at Austin, where
+                    I graduated in 2011 with a Bachelors in Electrical and Computer Engineering Degree. Since then I
+                    have worked with Intel Corporation as a Product
+                    Development Engineering doing Manufacturing and Validation, maintaining software tools. I am
+                    currently in a full stack web development coarse to
+                    broaden my programming skills and learn more about web design which has interested me for some time
+                    now. I enjoy writing new scripts and code and
+                    the ideas the planning and problem solving that goes into designing new solutions.
+                </p>
+                <p>
+                    Some of my hobbies include playing with my animals which include a Boxer dog and two horses. I also
+                    enjoy
+                    riding motorcycle and playing videogames. Once a nice summer day, I enjoy having a cold beer and one
+                    of the
+                    many local breweries out where I live in Dripping Springs, Texas.
+                </p>
+            </h3>
+        </div>
+    </div>
+    <hr>
+    <div class="container" id="portfolioSectionP1">
+        <h1 class="title" style="text-align: center">Projects I</h1>
+        <div class="row projBox">
+            <div class="projImg">
+                <img class="p1" src="./assets/images/motorcycle.jpg" alt="motorcycle guessing game">
+            </div>
+            <div class="projDesc">
+                <p>
+                    <h5>Motorcycle Guessing Game</h5>
+                </p>
+                <p>Description: Play a fun word guessing game with a theme centered around motorcycle brands!</p>
+                <p><a href="https://jwellstx.github.io/Word-Guess-Game/">Demo</a></p>
+                <p><a href="https://github.com/jwellstx/Word-Guess-Game">Code</a></p>
+            </div>
+        </div>
+        <div class="row projBox">
+            <div class="projDesc">
+                <p>
+                    <h5>Star Wars RPG</h5>
+                </p>
+                <p>Description: Play a Star Wars themes RPG where you choose your character to fight enemies until you
+                    win! Be careful the enemies can be powerful!</p>
+                <p><a href="https://jwellstx.github.io/unit-4-game/">Demo</a></p>
+                <p><a href="https://github.com/jwellstx/unit-4-game">Code</a></p>
+            </div>
+            <div class="projImg">
+                <img class="p2" src="./assets/images/starwarsrpg.png" alt="starwars rpg">
+            </div>
+        </div>
+        <div class="row projBox">
+            <div class="projImg">
+                <img class="p1" src="./assets/images/mariobgr.png" alt="gaming trivia">
+            </div>
+            <div class="projDesc">
+                <p>
+                    <h5>Video Game Trivia</h5>
+                </p>
+                <p>Description: Test your knowledge on the videogame based trivia quiz! Answer all the questions before
+                    time runs out to see if your a true gamer!</p>
+                <p><a href="https://jwellstx.github.io/TriviaGame/">Demo</a></p>
+                <p><a href="https://github.com/jwellstx/TriviaGame">Code</a></p>
+            </div>
+        </div>
+        <div class="row projBox">
+            <div class="projDesc">
+                <p>
+                    <h5>GIFinder</h5>
+                </p>
+                <p>Description: Use this app to find any gif you want, using the GIPHY API. Add your favorite gifs to
+                    your favorites to access them in the future!</p>
+                <p><a href="https://jwellstx.github.io/giphy_api_app/">Demo</a></p>
+                <p><a href="https://github.com/jwellstx/giphy_api_app">Code</a></p>
+            </div>
+            <div class="projImg">
+                <img class="p2" src="./assets/images/giphy.webp" alt="gifinder app">
+            </div>
+        </div>
+        <div class="row projBox">
+            <div class="projImg">
+                <img class="p1" src="./assets/images/rps.jpg" alt="rps online">
+            </div>
+            <div class="projDesc">
+                <p>
+                    <h5>Rock Paper Scissors with Chat</h5>
+                </p>
+                <p>Description: Enjoy a fun, simple game of Rock, Paper, Scissors in this online multiplyer version.
+                    Chat with your opponent at the same time!</p>
+                <p><a href="https://jwellstx.github.io/rps_multiplayer_online/">Demo</a></p>
+                <p><a href="https://github.com/jwellstx/rps_multiplayer_online">Code</a></p>
+            </div>
+        </div>
+        <div class="row projBox">
+            <div class="projDesc">
+                <p>
+                    <h5>Youtify</h5>
+                </p>
+                <p>Description: A battle between Spotify songs or a battle between Youube videos! Listen to songs and
+                    videos and vote which one you like more! View previous winners at the same time!</p>
+                <p><a href="https://jwellstx.github.io/Project1/">Demo</a></p>
+                <p><a href="https://github.com/jwellstx/Project1">Code</a></p>
+            </div>
+            <div class="projImg">
+                <img class="p2" src="./assets/images/favicon.ico" alt="spotify youtube battles">
+            </div>
+        </div>
+    </div>
+    <!-- place holder for P2/P3-->
+    <!-- 
+        <hr>
+        <div id="portfolioSectionP2"></div>
+        <hr>
+        <div id="portfolioSectionP3"></div> 
+        -->
+    <hr>
+    <div id="contactMeSection" class="container" style="text-align: center; width: 30%">
+        <h1 class="title" style="text-align: center">Contact Me</h1>
+        <br><br>
+        <div class="row">
+            <div class="col-lg-6">
+                <a href="https://www.linkedin.com/in/jwellstx/"><img src="assets/images/linkedin.png" style="width: 50%;"></a>
+            </div>
+            <div class="col-lg-6">
+                <a href="https://github.com/jwellstx/"><img src="assets/images/github.png" style="width: 50%"></a>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 style="font-size:2vw">Email: jwellstx@gmail.com</h2>
+                <h2 style="font-size:2vw">Phone Number: 817-657-1989</h2>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="#"><img src="assets/images/resume-removebg-preview.png" style="width: 50%"></a>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <img class="footer" src="./assets/images/woodfooter.png">
+    <script src="./assets/javascript/app.js"></script>
 </body>
+
 </html>
