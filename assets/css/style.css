@@ -167,6 +167,10 @@ hr {
     width: 25%;
 }
 
+.projName {
+    border-bottom: 3px solid black;
+}
+
 #bubble {
     top: -41vh;
     position: relative;
