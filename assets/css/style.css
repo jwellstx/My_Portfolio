@@ -76,9 +76,9 @@ hr {
 .myProfImg {
     position: absolute;
     z-index: -1;
-    top: -75%;
-    left: 5vw;
-    height: 90%;
+    top: -85%;
+    left: 8vw;
+    height: 110%;
 }
 
 .myImg {
