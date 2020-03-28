@@ -19,15 +19,6 @@ hr {
     box-shadow: 2px 4px grey;
 }
 
-
-.myProfImg {
-    position: absolute;
-    z-index: -1;
-    top: -45vh;
-    left: 5vw;
-    height: 55vh;
-}
-
 .banner {
     position: relative;
     text-align: center;
@@ -85,7 +76,13 @@ hr {
     color: rgb(228, 222, 222);
 }
 
-
+.myProfImg {
+    position: absolute;
+    z-index: -1;
+    top: -75%;
+    left: 5vw;
+    height: 90%;
+}
 
 .myImg {
     width: 25vw;
@@ -113,6 +110,7 @@ hr {
     transition: left 1s;
     border-radius: 15%;
     font-weight: bold;
+    font-size: 1.2vw;
 }
 
 .aboutMe:hover {
@@ -162,7 +160,7 @@ hr {
 .projDesc {
     width: 75%;
     padding: 5%;
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 .projImg {
@@ -177,6 +175,7 @@ hr {
 
 .title {
     text-align: center;
+    font-size: 3vw;
 }
 
 .footer {
@@ -186,18 +185,21 @@ hr {
 @media only screen and (max-width: 1024px) {
     .aboutMe {
         left: 25vw;
+        padding: .5vh 11vw .5vh 2vw;
     }
     .aboutMe:hover {
         left: 23vw;
     }
     .portfolio {
         left: 26vw;
+        padding: .5vh 11vw .5vh 2vw;
     } 
     .portfolio:hover {
         left: 24vw;
     }
     .contactMe {
         left: 27vw;
+        padding: .5vh 11vw .5vh 2vw;
     }
     .contactMe:hover {
         left: 25vw;
