@@ -1,18 +1,36 @@
-$(".aboutMe").on("click", () => {
+$(".home").on("click", () => {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#aboutMeSection").offset().top
+        scrollTop: $(".banner").offset().top - 50
     }, 2000);
 })
 
-$(".portfolio").on("click", () => {
+$(".aboutMe1").on("click", () => {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#portfolioSectionP1").offset().top
+        scrollTop: $("#aboutMeSection").offset().top - 50
     }, 2000);
 })
 
-$(".contactMe").on("click", () => {
+$(".portfolio1").on("click", () => {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#contactMeSection").offset().top
+        scrollTop: $("#portfolioSectionP1").offset().top - 50
+    }, 2000);
+})
+
+$(".portfolio2").on("click", () => {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#portfolioSectionP2").offset().top - 50
+    }, 2000);
+})
+
+$(".portfolio3").on("click", () => {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#portfolioSectionP3").offset().top - 50
+    }, 2000);
+})
+
+$(".contactMe1").on("click", () => {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#contactMeSection").offset().top - 50
     }, 2000);
 })
 
@@ -24,8 +42,6 @@ function getRandomQuote() {
         url: queryURL,
         method: "GET"
     }).then(response => {
-        console.log(response);
-        console.log(response.en.length);
         if (response.en.length > 225 ) {
             getRandomQuote();
             return;
